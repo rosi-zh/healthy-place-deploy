@@ -1,0 +1,13 @@
+.profile-card {
+    max-width: 45em;
+    margin-bottom: 1.8em;
+}
+
+.card-image {
+    text-align: center;
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+
+.profile-image {
+    width: 10em;
+}

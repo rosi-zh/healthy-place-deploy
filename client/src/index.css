@@ -1,0 +1,133 @@
+:root {
+    --primary: #88B44E;
+    --secondary: #FB9F38;
+    --light: #F5F8F2;
+    --dark: #252C30;
+  }
+  
+  .back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+  }
+  
+  .fw-medium {
+    font-weight: 600;
+  }
+  
+  .fw-bold {
+    font-weight: 700;
+  }
+  
+  .fw-black {
+    font-weight: 900;
+  }
+  
+  
+  /*** Button ***/
+  .btn {
+    transition: .5s;
+    font-weight: 500;
+  }
+  
+  .btn-primary,
+  .btn-outline-primary:hover {
+    color: var(--light);
+  }
+  
+  .btn-secondary,
+  .btn-outline-secondary:hover {
+    color: var(--dark);
+  }
+  
+  .btn-square {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .btn-sm-square {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .btn-lg-square {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .btn-square,
+  .btn-sm-square,
+  .btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+  }
+
+.btn-base {
+    border-radius: 10em;
+    border-color: #88B44E;
+    background-color: #88B44E;
+    font-family: "Playfair Display", serif;
+    font-size: 1.2em;
+}
+
+.btn-base:hover {
+    background-color: transparent;
+}
+
+.btn-sec {
+    border-radius: 10em;
+    border-color: #88B44E;
+    font-family: "Playfair Display", serif;
+    font-size: 1.2em;
+}
+
+.btn-sec:hover {
+    background-color: #88B44E;
+}
+  
+  /*** Section Title ***/
+  .section-title {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+  }
+  
+  .section-title::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: var(--primary);
+  }
+  
+  .section-title::after {
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 28px;
+    bottom: -13px;
+    left: calc(25% - 13px);
+    background: var(--dark);
+    border: 10px solid #FFFFFF;
+    border-radius: 28px;
+  }
+  
+  .section-title.text-center::before {
+    left: 25%;
+  }
+  
+  .section-title.text-center::after {
+    left: calc(50% - 13px);
+  }
+  
+  /* Invalid Feedback */
+  .invalid-feedback {
+    display: inline-block;
+  }

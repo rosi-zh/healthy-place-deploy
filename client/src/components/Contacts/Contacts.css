@@ -1,0 +1,21 @@
+.contact-header {
+    max-width: 500px;
+}
+
+.text-field {
+    height: 120px
+}
+
+.map {
+    height: 100%;
+    min-height: 300px;
+    border:0;
+}
+
+.contact .btn-square {
+    width: 100px;
+    height: 100px;
+    border: 20px solid var(--light);
+    background: var(--primary);
+    border-radius: 50px;
+}
