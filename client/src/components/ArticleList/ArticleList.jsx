@@ -26,15 +26,17 @@ export default function ArticleList() {
                     
                     {loading && <Loader />}
                     
-                    <div className="row g-4">
-                        {value.map(article => (
-                            <ArticleListItem key={article._id} {...article} />
-                        ))}
+                    {!loading && (
+                        <div className="row g-4">
+                            {value.map(article => (
+                                <ArticleListItem key={article._id} {...article} />
+                            ))}
 
-                        {(value.length === 0  || error) &&
-                            <h3 className="text-center wow fadeInUp">No articles yet.</h3>
-                        }
-                    </div>
+                            {(value.length === 0  || error) &&
+                                <h3 className="text-center wow fadeInUp">No articles yet.</h3>
+                            }
+                        </div>
+                    )}
                 </div>
             </div>
         </>
