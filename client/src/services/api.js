@@ -1,6 +1,6 @@
 import { clearUserData, getUserData } from "../utils/util";
 
-const host = 'http://localhost:3030';
+const host = 'https://healthyplace-backend.onrender.com';
 
 async function request(method, url, data) {
     const options = {
