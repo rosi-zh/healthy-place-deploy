@@ -9,6 +9,7 @@ import Path from "../../utils/paths";
 
 import PageTop from "../PageTop/PageTop";
 import Loader from "../Loader/Loader";
+import ArticleDelete from "../ArticleDelete/ArticleDelete";
 
 export default function ArticleDetails() {
     const navigate = useNavigate();
@@ -19,6 +20,8 @@ export default function ArticleDetails() {
     const [hasLiked, setHasLiked] = useState(false);
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(true);
+    const [showDeleteModal, setShowDeleteModal] = useState(false);
+    const [deleteError, setDeleteError] = useState('');
 
     useEffect(() => {
         Promise.all([dataService.getById(articleId), likeService.getAll(articleId)])
@@ -45,15 +48,24 @@ export default function ArticleDetails() {
     }, [articleId, isAuth, hasLiked]);
 
     const deleteButtonHandler = async () => {
-        const hasConfirmed = confirm(`Are you sure you want to delete ${article.title}?`);
-
-        if (hasConfirmed) {
-            await dataService.remove(articleId);
-
-            navigate(Path.Articles);
-        }
+        setShowDeleteModal(true);
     }
 
+    const onModalClose = () => {
+        setShowDeleteModal(false);
+    }
+    
+    const handleDelete = async() => {
+        try {
+            await dataService.remove(articleId);
+            
+            setShowDeleteModal(false);
+            navigate(Path.Articles);
+        } catch (error) {
+            setDeleteError(error.message);
+        }
+    }
+    
     const likeButtonHandler = async () => {
         if (!hasLiked) {
             try {
@@ -115,6 +127,8 @@ export default function ArticleDetails() {
                         </div>
                     )
                 }
+
+                <ArticleDelete show={showDeleteModal} close={onModalClose} handleDelete={handleDelete} title={article.title} deleteError={deleteError} />
 
             </div>
         </>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useFormik} from "formik";
+import { useFormik } from "formik";
 import "./ArticleCreate.css";
 
 import * as dataService from "../../services/dataService";

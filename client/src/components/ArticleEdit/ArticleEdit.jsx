@@ -25,6 +25,12 @@ export default function ArticleEdit() {
         dataService.getById(articleId)
             .then(result => {
                 setArticle(result);
+            })
+            .catch((error) => {
+                if (error.code === 404) {
+                    navigate(Path.NotFound)
+                }
+                console.log(error);
             });
     }, [articleId]);
 

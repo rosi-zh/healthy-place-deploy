@@ -1346,7 +1346,7 @@
     		"1240549d-f0e0-497e-ab99-eb8f703713d7": {
     			_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
     			title: "Benefits of Green Tea",
-    			imageUrl: "/img/article.jpg",
+    			imageUrl: "https://firebasestorage.googleapis.com/v0/b/healthy-place-project.appspot.com/o/images%2Farticle.jpg?alt=media&token=42b4833a-54f4-4984-a3e4-f15a1e0a2645",
                 text: "Green tea is touted to be one of the healthiest beverages on the planet that could have many potential health benefits. Green tea has polyphenol antioxidants, including a catechin called EGCG. These antioxidants could have various beneficial effects on health. A 2017 research paper Trusted Source found that drinking green tea may benefit cognition, mood, and brain function, possibly due to compounds in green tea like caffeine and L-theanine.",
     			_createdOn: 1614935055353,
     			_id: "1240549d-f0e0-497e-ab99-eb8f703713d7"
@@ -1354,11 +1354,36 @@
     		"143e5265-333e-4150-80e4-16b61de31aa0": {
     			_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
     			title: "Carrots! Carrots! Carrots!",
-                imageUrl: "/img/blog-3.jpg",
+                imageUrl: "https://firebasestorage.googleapis.com/v0/b/healthy-place-project.appspot.com/o/images%2Fcarrots.jpg?alt=media&token=6646f650-1dd4-403c-89a7-5405e6db7c2f",
                 text: "The root veggie does a lot more than preserve your vision. ust one large carrot (one cup) can provide 100% of the daily target for vitamin A. This important nutrient (which acts as a cell-protective antioxidant) may even help protect against cancer, age-related macular degeneration, and measles. Although carrots are known to be higher in sugar compared to other vegetables, they do have anti-diabetic properties. The soluble fiber in carrots has been shown to help regulate blood sugar and insulin levels after eating. Raw or slightly cooked carrots are also low on the glycemic index, which helps them provide a steady energy supply.", 
     			_createdOn: 1614935181470,
     			_id: "143e5265-333e-4150-80e4-16b61de31aa0"
     		},
+            "2143d3a9-be65-4f31-9acf-714c6c576d71":
+            {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                title: "Meditation: A simple, fast way to reduce stress",
+                imageUrl: "https://cdn.pixabay.com/photo/2016/11/08/05/22/buddhist-1807526_1280.jpg",
+                text: "Meditation can wipe away the day's stress, bringing with it inner peace. See how you can easily learn to practice meditation whenever you need it most.Meditation can give you a sense of calm, peace and balance that can benefit both your emotional well-being and your overall health. You can also use it to relax and cope with stress by refocusing your attention on something calming. Meditation can help you learn to stay centered and keep inner peace.\nAnd these benefits don't end when your meditation session ends. Meditation can help carry you more calmly through your day. And meditation may help you manage symptoms of certain medical conditions.",
+                _createdOn: 1702113792179,
+                _id: "2143d3a9-be65-4f31-9acf-714c6c576d71"
+            },
+            "1fee3420-8bb1-4e3d-80f2-db71e04a45da": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                title: "It is best to take a rest",
+                imageUrl: "https://cdn.pixabay.com/photo/2017/06/20/22/14/man-2425121_1280.jpg",
+                text: "Taking breaks throughout the workday has benefits for both the employee and the organization, but many employees often neglect to take them. Skipping breaks can lead to faster burnout and higher stress levels. Employees stepping away from work for a few minutes increases their productivity, job satisfaction, mental health and well-being, and are overall more engaged in their work. Breaks can prevent decision fatigue. Taking a break from making decisions within work allows employees to refuel to make better decisions than they would without a break (University of Illinois at Urbana-Champaign, 2011). Taking breaks can increase creativity, promote healthy habits, and make employees feel more valued by their organization and supervisor. Additionally, supervisors or the organization promoting healthy habits during breaks encourages employees to take the time to make a healthy lunch or go for a walk. Movement breaks are also beneficial for emotional and physical health. Lastly, taking a break before becoming fatigued helps improve memory and focus, therefore allowing employees to better remember what they have learned.",
+                _createdOn: 1702116953896,
+                _id: "1fee3420-8bb1-4e3d-80f2-db71e04a45da"
+            },
+            "9c348ac1-3101-47bd-a53f-7bd5bcf5964d": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                title: "Why is exercise important? ",
+                imageUrl: "https://cdn.pixabay.com/photo/2017/04/22/10/15/woman-2250970_1280.jpg",
+                text: "Physical activity has many benefits for your body and your mind. It’s an important part of a healthy lifestyle and anyone can benefit from exercise, no matter how old you are. And the more time you spend being physically active , the greater the benefits are likely to be. Read on to discover why exercise is important and how staying active can help your mental health.\n\nBeing physically active helps to keep your heart strong and your lungs healthy. Even better, it reduces your chance of developing a long-term health condition. Exercising regularly: improves your strength, balance, and movement skills; helps you maintain a strong muscles and healthy bones; reduces your risk of developing high blood pressure (hypertension), heart disease, stroke, type 2 diabetes, depression, dementia, and some cancers; helps you maintain a healthy weight  and reduces your risk of becoming overweight; helps you manage stress and sleep better;\ncan reduce joint and back pain.\n",
+                _createdOn: 1702117899898,
+                _id: "9c348ac1-3101-47bd-a53f-7bd5bcf5964d"
+            },
     	},
     	likes: {
     	},

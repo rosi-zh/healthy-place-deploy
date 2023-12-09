@@ -1,7 +1,7 @@
 import { get, post, put, del } from "./api";
 
 const endpoints = {
-    all: '/data/articles',
+    all: '/data/articles?sortBy=_createdOn%20desc&',
     create: '/data/articles',
     byId: '/data/articles/',
     byOwner: '/data/articles?',
